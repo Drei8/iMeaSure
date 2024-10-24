@@ -151,12 +151,15 @@ body {
   }
 }
 
-.waving-hand {
-  animation-name: wave-animation;
+.clothing-emoji {
+  animation-name: fade;
   animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation: fade 4s ease-in-out forwards;
+  animation-iteration-count: 4;
   transform-origin: 70% 70%;
   display: inline-block;
+  font-size: 1.5rem;
+  margin-top: -65px;
 }
 
 .arrow-gradient {
@@ -169,29 +172,22 @@ body {
   );
 }
 
-@keyframes wave-animation {
+@keyframes fade {
   0% {
-    transform: rotate(0deg);
+    opacity: 0; /* Start invisible */
+    transform: translateY(10px); /* Optional: adds a slight upward movement */
   }
-  15% {
-    transform: rotate(14deg);
-  }
-  30% {
-    transform: rotate(-8deg);
-  }
-  40% {
-    transform: rotate(14deg);
+  25% {
+    opacity: 1; /* Fully visible */
   }
   50% {
-    transform: rotate(-4deg);
+    opacity: 1; /* Remains fully visible */
   }
-  60% {
-    transform: rotate(10deg);
-  }
-  70% {
-    transform: rotate(0deg);
+  75% {
+    opacity: 1; /* Remains fully visible */
   }
   100% {
-    transform: rotate(0deg);
+    opacity: 0; /* Fade out to invisible */
+    transform: translateY(10px); /* Optional: adds a slight upward movement */
   }
 }

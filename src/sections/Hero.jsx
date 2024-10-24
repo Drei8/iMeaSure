@@ -25,10 +25,17 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-        <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-        Design of Body Size Measurement for Automated Apparel Design System <span className="waving-hand">👋</span>
+        <div className="flex justify-center space-x-5">
+          <span className="clothing-emoji">👖</span>
+          <span className="clothing-emoji">👗</span>
+          <span className="clothing-emoji">🧥</span>
+          <span className="clothing-emoji">👚</span>
+        </div>
+        <p className="sm:text-xl text-l font-medium text-white text-center font-generalsans mb-2">
+        Design of Body Size Measurement for Automated Apparel Design System 
         </p>
-        <p className="hero_tag text-gray_gradient">Using 3D Semantic Segmentation Algorithms
+        <p className="hero_tag text-gray_gradient sm:text-3xl text-2xl mb-4"> 
+        Using 3D Semantic Segmentation Algorithms
         </p>
       </div>
 
