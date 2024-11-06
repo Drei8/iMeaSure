@@ -20,27 +20,26 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/king-removebg-preview.png" alt="grid-1" className="w-full sm:h-[280px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Cutting-Edge Technology</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              
+"Experience unparalleled accuracy in image segmentation with advanced AI models like U-NET, DeepLabV3, and PSPNet, delivering precise and reliable results for cutting-edge applications." 
               </p>
             </div>
           </div>
-        </div>
+        </div> 
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">Application Ecosystem</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                Our application ecosystem leverages Node.js for backend services, React.js for the frontend framework, Three.js with React Three Fiber and React Three Drei for 3D graphics rendering, EmailJS for email automation, Vite as the build tool, and Tailwind CSS for responsive, modern styling.
               </p>
             </div>
           </div>
@@ -48,7 +47,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
-            <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+            <div className="rounded-3xl w-full sm:h-[480px] h-fit flex justify-center items-center">
               <Globe
                 height={326}
                 width={326}
@@ -62,9 +61,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">Ongoing Challenge</p>
+              <p className="grid-subtext">In 2023, e-commerce faced a staggering 17.6% return rate, largely due to incorrect sizing—a challenge we’re here to solve.</p>
+              <Button name="Contact Us" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
         </div>
@@ -74,10 +73,9 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">User Personal Initialization</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Height:
               </p>
             </div>
           </div>
@@ -86,17 +84,16 @@ const About = () => {
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
-              src="assets/grid4.png"
+              src="assets/clothes.png"
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
+              className="w-full md:h-[70px] sm:h-[300px] h-fit object-cover sm:object-top mt-10"
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
-              <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
-              </div>
+              <p className="grid-headtext">Virtual Try-On</p>
+              <p className="grid-subtext">
+              Experience the perfect fit from home with our virtual try-on, letting you see how apparel looks on you before you buy.
+              </p>
             </div>
           </div>
         </div>
